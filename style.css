@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url(fonts/RobotoSlab-VariableFont_wght.ttf);
+  }
+
+@font-face {
+    font-family: Arvo-bold;
+    src: url(fonts/Arvo/Arvo-Bold.ttf);
+  }
+
+body {
+    background-color: #edefee;
+    display: flex;
+    justify-content: center;
+}
+
+#main-wrapper {
+    width: 1350px;
+}
+
+header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    max-width: 80px;
+}
+
+.title-header {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color:  #495e57;
+    display: flex;
+    align-items: center;
+    font-family: RobotoSlab;
+    margin-left: 30px;
+}
+
+nav {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 15px;
+    
+}
+
+.nav {
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 5px;
+    font-family: RobotoSlab;
+}
+
+.nav:hover {
+    color: #DDD7D5;
+}
+
+main .discount {
+    background-image: url('./image/tokoyaky.jpg'), url('./image/tokoyaki.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    border-radius: 15px;
+}
+
+main h1 {
+    font-family: Arvo-bold;
+    padding: 30px 20px;
+}
+
+.main-content {
+    width: 790px;
+    padding: 25px 20px;
+}
+
+#book {
+    margin-top: 20px;
+    width: 100%;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-card {
+    background-color: #f5e5d6;
+    width: 420px;
+    border-radius: 15px;
+}
+
+.book-detail {
+    margin: 15px 25px;
+}
+
+.book-detail  .book-title {
+    font-family:  Arvo-bold;
+    font-weight: 300;
+    padding: 25px 0px;
+}
+
+.book-img {
+    padding: 10px 0px;
+}
+
+.book-img img {
+   width: 100%;
+}
+
+#book .book-card .book-detail .book-content {
+    width: 330px;
+    padding-top: 20px;
+}
+
+#book .book-card .book-detail .more-info {
+    padding-top: 20px;
+    color:  #b2a6ef;
+}
+
+#book .book-card .book-detail .open-time {
+    padding: 21px 60px;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+#about .footer-logo {
+    width: 40px;
+    height: auto;
+    position: relative;
+    margin-left: 40px;
+}
+
+#about .footer-logo img {
+    width: inherit;
+    height: inherit;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+#about .footer-logo .line-top-right {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-style: solid solid none none;
+    border-color: #495e57;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+
+#about .footer-logo .line-bottom-left {
+    width: 70px;
+    height: 70px;
+    border-style: none none solid solid;
+    border-color: #495e57;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: -10px;
+}
+
+ .footer-copy_right {
+    width: 50%;
+    border-top: solid;
+    text-align: right;
+ }
+
+
+
+
+
+
