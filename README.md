@@ -3,6 +3,7 @@
 Introduction
 * Project have one page
 * Project is static web and no responsive
+* Link project: https://tungpt12.github.io/restaurant_lemon/ 
 
 Prerequisites
 
