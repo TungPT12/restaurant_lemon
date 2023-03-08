@@ -14,7 +14,7 @@ Run project
 * Clone project
 * Open index.js in VSCode
 * Click right mouse on index.js in VSCode
-* Click open in browser
+* Click 'Open with Live Server'
 
 Contact me:
 *Phone number: 0988486443
